@@ -12,6 +12,33 @@
         android:theme="@style/Theme.MadMiniProject"
         tools:targetApi="31">
         <activity
+            android:name=".DeleteorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddorderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryordersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BgRoundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".FirstPageActivity"
             android:exported="false" />
         <activity
