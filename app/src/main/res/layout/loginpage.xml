@@ -21,7 +21,7 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="54dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/bg_round"
@@ -35,7 +35,7 @@
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="54dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/bg_round"
