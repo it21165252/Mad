@@ -12,10 +12,10 @@
         android:layout_width="273dp"
         android:layout_height="75dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/dark_blue"
         android:shadowRadius="50"
         android:text="Update"
-        android:textColor="#023282"
+        android:textColor="#FEFEFE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -35,14 +35,14 @@
         android:id="@+id/textView13"
         android:layout_width="90dp"
         android:layout_height="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="200dp"
         android:text="Status"
         android:textColor="#023180"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
 
     <EditText
         android:id="@+id/editTextTextPersonName12"
@@ -51,7 +51,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/bg_round"
         android:ems="10"
-        android:hint="Customer name"
+        android:hint="Product Name"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,42 +88,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="340dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
-        android:ems="10"
-        android:hint="Item Name"
-        android:inputType="textPersonName"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="340dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
-        android:ems="10"
-        android:hint="Qty"
-        android:inputType="textPersonName"
-        android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
-
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Update Order"
+        android:text="Update Delivery"
         android:textColor="#023180"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
