@@ -26,11 +26,11 @@
         app:srcCompat="@drawable/baseline_menu_24" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/tv_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Delivery"
+        android:text="@string/tv_delivery"
         android:textColor="#023180"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,38 +38,41 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_approved"
         android:layout_width="330dp"
         android:layout_height="151dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/dark_blue"
-        android:text="Approved Orders"
+        android:background="@drawable/bg_round"
+        android:text="@string/btn_approved"
+        android:textColor="#F9F9F9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delivery" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_add_delivery"
         android:layout_width="330dp"
         android:layout_height="151dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/dark_blue"
-        android:text="+ Add Delivery"
+        android:background="@drawable/bg_round"
+        android:text="@string/btn_add_delivery"
+        android:textColor="#F9F9F9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_approved" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_all_delivery"
         android:layout_width="330dp"
         android:layout_height="151dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="@color/dark_blue"
-        android:text="All Deliverys"
+        android:background="@drawable/bg_round"
+        android:text="@string/btn_all_delivery"
+        android:textColor="#F9F9F9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_add_delivery" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
