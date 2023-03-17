@@ -7,22 +7,22 @@
     tools:context=".AddorderActivity">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_add"
         android:layout_width="273dp"
         android:layout_height="75dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/dark_blue"
+        android:background="@drawable/bg_round"
         android:shadowRadius="50"
-        android:text="Add"
+        android:text="@string/btn_add"
         android:textColor="#FEFEFE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spn_status" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/tv_header"
         android:layout_width="415dp"
         android:layout_height="58dp"
         android:background="@color/dark_blue"
@@ -31,98 +31,98 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/tv_add_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Add Delivery"
+        android:text="@string/tv_add_delivery"
         android:textColor="#023180"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/icon_back"
         android:layout_width="62dp"
         android:layout_height="36dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/tv_header"
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/icon_menu"
         android:layout_width="41dp"
         android:layout_height="37dp"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/tv_header"
         app:srcCompat="@drawable/baseline_menu_24" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/tv_product_name"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Product Name"
+        android:hint="@string/tv_product_name"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_add_delivery" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/tv_address"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Address"
+        android:hint="@string/tv_address"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_name" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/tv_delivery_date"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Delivery Date"
+        android:hint="@string/tv_delivery_date"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/tv_status"
         android:layout_width="90dp"
         android:layout_height="25dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="200dp"
-        android:text="Status"
+        android:text="@string/tv_status"
         android:textColor="#023180"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delivery_date" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spn_status"
         android:layout_width="340dp"
         android:layout_height="27dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_status" />
 </androidx.constraintlayout.widget.ConstraintLayout>

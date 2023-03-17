@@ -7,88 +7,88 @@
     tools:context=".DeleteorderActivity">
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spn_delete"
         android:layout_width="340dp"
         android:layout_height="27dp"
         android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delete_status" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_delete"
         android:layout_width="273dp"
         android:layout_height="75dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/dark_blue"
+        android:background="@drawable/bg_round"
         android:shadowRadius="50"
-        android:text="delete"
+        android:text="@string/btn_delete"
         android:textColor="#FEFEFE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
+        app:layout_constraintTop_toBottomOf="@+id/spn_delete" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/tv_delete_status"
         android:layout_width="90dp"
         android:layout_height="25dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="200dp"
-        android:text="Status"
+        android:text="@string/tv_status"
         android:textColor="#023180"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delete_delivery_date" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/tv_delete_delivery_date"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Delivery Date"
+        android:hint="@string/tv_delivery_date"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delete_address" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/tv_delete_address"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Address"
+        android:hint="@string/tv_address"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delete_product_name" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/tv_delete_product_name"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Product Name"
+        android:hint="@string/tv_product_name"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_delete_delivery" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/tv_delete_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -109,7 +109,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/icon_back_delete"
         android:layout_width="62dp"
         android:layout_height="36dp"
         android:layout_marginStart="15dp"

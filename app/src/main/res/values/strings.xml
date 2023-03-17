@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">MadMiniProject</string>
+    <string name="tv_bgn">Join with us better Online shopping</string>
+    <string name="btn_start">Get started</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_acc">Don\'t have an account?</string>
+    <string name="tv_signup">SignUp</string>
+    <string name="btn_adminlg">Admin login</string>
+    <string name="tv_delivery">Delivery</string>
+    <string name="btn_approved">Approved Orders</string>
+    <string name="btn_add_delivery">+ Add Delivery</string>
+    <string name="btn_all_delivery">All Deliverys</string>
+    <string name="icon_back" />
+    <string name="icon_menu" />
+    <string name="tv_add_delivery">Add Delivery</string>
+    <string name="tv_product_name">Product Name</string>
+    <string name="tv_address">Address</string>
+    <string name="tv_delivery_date">Delivery Date</string>
+    <string name="tv_status">Status</string>
+    <string name="spn_status" />
+    <string name="btn_add">Add</string>
+    <string name="tv_update_delivery">Update Delivery</string>
+    <string name="btn_update">update</string>
+    <string name="tv_delete_delivery">Delete Delivery</string>
+    <string name="btn_delete">delete</string>
 </resources>

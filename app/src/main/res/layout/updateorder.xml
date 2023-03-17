@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spn_Update"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UpdateorderActivity">
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn_update"
         android:layout_width="273dp"
         android:layout_height="75dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="@color/dark_blue"
+        android:background="@drawable/bg_round"
         android:shadowRadius="50"
-        android:text="Update"
+        android:text="@string/btn_update"
         android:textColor="#FEFEFE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,63 +37,63 @@
         android:layout_height="25dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="200dp"
-        android:text="Status"
+        android:text="@string/tv_status"
         android:textColor="#023180"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName15" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_update_delivery_date" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName12"
+        android:id="@+id/tv_update_product_name"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Product Name"
+        android:hint="@string/tv_product_name"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_update_delivery" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/tv_update_address"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Address"
+        android:hint="@string/tv_address"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_update_product_name" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName15"
+        android:id="@+id/tv_update_delivery_date"
         android:layout_width="340dp"
         android:layout_height="51dp"
         android:layout_marginTop="15dp"
-        android:background="@drawable/bg_round"
+        android:background="@drawable/orderbox"
         android:ems="10"
-        android:hint="Delivery Date"
+        android:hint="@string/tv_delivery_date"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_update_address" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/tv_update_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Update Delivery"
+        android:text="@string/tv_update_delivery"
         android:textColor="#023180"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -128,4 +128,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView16"
         app:srcCompat="@drawable/baseline_menu_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
