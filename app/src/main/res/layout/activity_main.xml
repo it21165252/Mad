@@ -15,6 +15,7 @@
         android:background="@drawable/bg_round"
         android:shadowRadius="20"
         android:text="@string/btn_start"
+        android:textColor="#FEFEFE"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

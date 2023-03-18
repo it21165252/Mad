@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MadMiniProject</string>
     <string name="tv_bgn">Join with us better Online shopping</string>
-    <string name="btn_start">Get started</string>
+    <string name="btn_start">Get Started</string>
     <string name="btn_login">Login</string>
     <string name="tv_acc">Don\'t have an account?</string>
     <string name="tv_signup">SignUp</string>
