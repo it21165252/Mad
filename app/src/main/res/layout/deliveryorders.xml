@@ -20,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="All Delivery "
         android:textColor="#023180"
         android:textSize="24sp"
@@ -86,6 +87,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -95,6 +97,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -104,6 +107,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -155,6 +159,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -164,6 +169,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -173,6 +179,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -224,6 +231,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -233,6 +241,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -242,6 +251,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -293,6 +303,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -302,6 +313,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -311,6 +323,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -362,6 +375,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -371,6 +385,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -380,6 +395,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -431,6 +447,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -440,6 +457,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -449,6 +467,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
@@ -500,6 +519,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Date"
                             android:textSize="16sp" />
 
@@ -509,6 +529,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Address"
                             android:textSize="16sp" />
 
@@ -518,6 +539,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="13dp"
+                            android:fontFamily="sans-serif-condensed"
                             android:text="Status"
                             android:textSize="16sp" />
                     </LinearLayout>
